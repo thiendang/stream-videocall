@@ -1,6 +1,55 @@
 body {
+  background: #ffd699;
   padding: 30px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h1 {
+  color: purple;
+  text-align: center;
+}
+h2 {
+  color: green;
+  animation: flash 3s forwards;
+  -webkit-animation: flash 3s forwards;
+  -moz-animation: flash 3s forwards;
+  -o-animation: flash 3s forwards;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;  
+  -o-animation-iteration-count: infinite;
+}
+@keyframes flash {
+  0%   {opacity:0;}
+  50%   {opacity:1;}
+  100% {opacity:0;}
+}
+input {
+  border-radius: 5px;
+  border: 2px solid rgb(119, 119, 119);
+  background: #ffd699; 
+}
+
+video {
+  animation-name: bounceIn;
+}
+
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
 }
 
 a {
@@ -25,6 +74,7 @@ li:hover {
 }
 
 .localStream {
+  font-weight: bold;
   display: inline-block;
   top: 15px;
   right: 15px;
@@ -32,10 +82,16 @@ li:hover {
 }
 
 .localStream video {
+  border-radius: 20px;
     border: 5px solid rgb(119, 119, 119);
     outline: 0px none;
     height: 240px;
     width: 320px;
+}
+
+#remoteVideosContainer video {
+  border-radius: 20px;
+  border: 5px solid rgb(119, 119, 119);
 }
 
 .remoteStreams{
