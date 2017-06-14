@@ -4,7 +4,6 @@ body {
 }
 
 a {
-  padding-left: 5px;
   color: #00b7ff;
   text-decoration: none;
 }
@@ -33,19 +32,10 @@ li:hover {
 }
 
 .localStream video {
-    border-radius: 15px;
-    border: 1px solid rgb(119, 119, 119);
+    border: 5px solid rgb(119, 119, 119);
     outline: 0px none;
     height: 240px;
     width: 320px;
-}
-
-#remoteVideosContainer video {
-  border-radius: 15px;
-  border: 1px solid rgb(119, 119, 119);
-  outline: 0px none;
-  height: 320px;
-  width: 480px;
 }
 
 .remoteStreams{
@@ -68,19 +58,6 @@ li:hover {
   border-left: none;
   border-radius: 3px 3px 3px 3px; 
   box-shadow:inset 1px 2px 6px #070707;
-}
-
-.remoteStreams p {
-  padding-top: 10px;
-}
-
-.share-link p {
-  padding-top: 10px;
-}
-
-
-.table th {
-  padding: 10px;
 }
 
 .footer {

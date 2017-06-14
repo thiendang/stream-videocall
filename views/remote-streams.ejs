@@ -1,9 +1,11 @@
 <div class="remoteStreams" ng-controller="RemoteStreamsController as rtc">
 	<h2>Đang Online</h2>
-    
+
+	<div id="remoteVideosContainer"></div>
+
 	<table>
     	<thead>
-    		<tr class="table">
+    		<tr>
         		<th>Stream</th><th>Xem</th><th>Gọi</th>
    			</tr>
    		</thead>
@@ -19,9 +21,4 @@
 	<li ng-click="rtc.loadData()" style="width: 240px">
         <a href>Refresh</a>
     </li>
-
-    <div class="row">
-       <div id="remoteVideosContainer col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-    </div>
-
 <div class="remoteStreams">
