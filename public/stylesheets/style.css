@@ -4,6 +4,7 @@ body {
 }
 
 a {
+  padding-left: 5px;
   color: #00b7ff;
   text-decoration: none;
 }
