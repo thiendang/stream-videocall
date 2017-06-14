@@ -4,8 +4,8 @@
 	<li ng-click="localStream.toggleCam()">
 		<a href>{{ localStream.cameraIsOn ? 'Stop' : 'Start' }}</a>
 	</li>
-	<div ng-show="localStream.cameraIsOn">		
+	<div ng-show="localStream.cameraIsOn" class="share-link">		
 		<p><%= share %>:</p>
-		<a>{{ localStream.link }}</a>
+		<input type="text">{{ localStream.link }}/>
 	</div>
 </div>
