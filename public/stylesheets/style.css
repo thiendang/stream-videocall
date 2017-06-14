@@ -38,6 +38,13 @@ li:hover {
     width: 320px;
 }
 
+#remoteVideosContainer video {
+  border: 5px solid rgb(119, 119, 119);
+  outline: 0px none;
+  height: 320px;
+  width: 480px;
+}
+
 .remoteStreams{
   display: inline-block;
   top: 15px;
