@@ -67,8 +67,12 @@ li:hover {
   box-shadow:inset 1px 2px 6px #070707;
 }
 
+.remoteStreams p {
+  padding-top: 10px;
+}
+
 .table th {
-  margin: 15px;
+  padding: 10px;
 }
 
 .footer {
