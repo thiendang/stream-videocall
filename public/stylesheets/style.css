@@ -105,7 +105,7 @@ li:hover {
 }
 
 #copyTarget {
-  color: #fff;
+  display: inline-block;
 }
 
 .localStream {
