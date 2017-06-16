@@ -3,11 +3,11 @@ module.exports = function(app, streams) {
   // GET home 
   var index = function(req, res) {
     res.render('index', { 
-                          title: 'Gọi Video', 
-                          header: 'Gọi Video sử dụng công nghệ WebRTC',
-                          username: 'Tên của bạn',
-                          share: 'Chia sẻ link cho bạn bè',
-                          footer: 'Ứng dụng chia sẻ video thông qua webcam',
+                          title: 'Ứng dụng họp trực tuyến trên website', 
+                          header: 'Ứng dụng họp trực tuyến trên website',
+                          username: '',
+                          share: 'Link chia sẽ',
+                          footer: 'Họp trực tuyến, chia sẻ video thông qua webcam',
                           id: req.params.id
                         });
   };

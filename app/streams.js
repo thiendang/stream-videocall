@@ -1,13 +1,6 @@
 module.exports = function() {
-  /**
-   * available streams 
-   * the id value is considered unique (provided by socket.io)
-   */
+  
   var streamList = [];
-
-  /**
-   * Stream object
-   */
   var Stream = function(id, name) {
     this.name = name;
     this.id = id;

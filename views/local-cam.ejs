@@ -1,11 +1,11 @@
 <div class="localStream wow bounceInRight" ng-controller="LocalStreamController as localStream">
-	<p><%= username %>: <input ng-model="localStream.name"/></p>
+	<p><%= username %><input ng-model="localStream.name" placeholder="Tên của bạn" class="input" /></p>
 	<video id="localVideo" muted="muted" autoplay="true"></video>
+	
 	<li ng-click="localStream.toggleCam()">
-		<a href>{{ localStream.cameraIsOn ? 'Stop' : 'Start' }}</a>
+		<a href>{{ localStream.cameraIsOn ? 'Kết thúc' : 'Bắt đầu' }}</a>
 	</li>
 	<div ng-show="localStream.cameraIsOn">		
-		<p><%= share %>:</p>
-		<a>{{ localStream.link }}</a>
+		<p><%= share %>:<br><a href=`{{localStream.link}}`>{{ localStream.link }}</a></p>
 	</div>
 </div>

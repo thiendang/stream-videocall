@@ -141,6 +141,7 @@
 				camera.start()
 				.then(function(result) {
 					localStream.link = $window.location.host + '/' + client.getId();
+					// localStream.link = 'https://' + $window.location.host + '/' + client.getId();
 					client.send('readyToStream', { name: localStream.name });
 				})
 				.catch(function(err) {
