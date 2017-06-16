@@ -6,7 +6,7 @@ module.exports = function(app, streams) {
                           title: 'Ứng dụng họp trực tuyến trên website', 
                           header: 'Ứng dụng họp trực tuyến trên website',
                           username: '',
-                          share: 'Link chia sẽ',
+                          share: '',
                           footer: 'Họp trực tuyến, chia sẻ video thông qua webcam',
                           id: req.params.id
                         });

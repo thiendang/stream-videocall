@@ -6,6 +6,6 @@
 		<a href>{{ localStream.cameraIsOn ? 'Kết thúc' : 'Bắt đầu' }}</a>
 	</li>
 	<div ng-show="localStream.cameraIsOn">		
-		<p><%= share %>:<br><a href="{{localStream.link}}" target="blank">{{ localStream.link }}</a></p>
+		<p id="copyTarget"><a href="{{localStream.link}}" target="blank">{{ localStream.link }}</a><button id="copyButton">Chép Link</button></p>
 	</div>
 </div>
