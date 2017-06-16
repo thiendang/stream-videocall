@@ -156,13 +156,11 @@ li:hover {
 }
 
 
-button {
+/*button {
   color: #fff;
   border: none;
   list-style-type: none;
-    /*border: 1px solid black;*/
     text-align: center;
-    /*box-shadow: 3px 3px 3px #888;*/
     background-image: -webkit-linear-gradient( -90deg, rgb(204, 0, 255) -80%, rgb(133, 68, 194) 100%);
     background-image: -ms-linear-gradient( -90deg, rgb(204, 0, 255) -15%, rgb(133, 68, 194) 100%);
     padding: 15px 5px 15px 5px;
@@ -178,4 +176,4 @@ button:hover {
   -moz-transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out
-}
+}*/
