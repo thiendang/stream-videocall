@@ -157,6 +157,8 @@ li:hover {
 
 
 button {
+  color: #fff;
+  border: none;
   list-style-type: none;
     /*border: 1px solid black;*/
     text-align: center;
