@@ -104,6 +104,10 @@ li:hover {
   width: 100%;
 }
 
+#copyTarget {
+  color: #fff;
+}
+
 .localStream {
   font-weight: bold;
   display: inline-block;
