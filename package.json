@@ -1,5 +1,5 @@
 {
-  "name": "ProjectRTC",
+  "name": "Video-Call",
   "version": "0.4.0",
   "author": "thiendang",
   "description": "a webRTC live streaming server",
